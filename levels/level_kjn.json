@@ -1,0 +1,105 @@
+{
+    "author": "Sveinn Steinarsson",
+    "settings": {
+        "title": "This ends here!",
+        "gridHeight": 8,
+        "gridWidth": 6,
+        "minMoves": 12,
+        "checkpoints": [{"x": 0, "y": 7}, {"x": 5, "y": 0}]
+    },
+    "elements": [{
+        "shapes": [{
+            "pos": {
+                "x": 0,
+                "y": 5
+            },
+            "grid": [
+                [1,1]
+            ]
+        }, {
+            "pos": {
+                "x": 5,
+                "y": 1
+            },
+            "grid": [
+                [1],
+                [1]
+            ]
+        }],
+        "attr": {
+            "type": "active",
+            "react": {
+                "hor": -1,
+                "ver": -1
+            },
+            "col": "#9C9B7A"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 1,
+                "y": 1
+            },
+            "grid": [
+                [1, 1],
+                [1, 0]
+            ]
+        }, {
+            "pos": {
+                "x": 2,
+                "y": 4
+            },
+            "grid": [
+                [1, 0],
+                [1, 1]
+            ]
+        }],
+        "attr": {
+            "type": "active",
+            "react": {
+                "hor": 1,
+                "ver": -1
+            },
+            "col": "#FF974F"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 3,
+                "y": 2
+            },
+            "grid": [
+                [1]
+            ]
+        }],
+        "attr": {
+            "type": "static"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 3,
+                "y": 0
+            },
+            "grid": [
+                [1, 1, 1]
+            ]
+        }],
+        "attr": {
+            "type": "static"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 0,
+                "y": 7
+            },
+            "grid": [
+                [1, 1, 1]
+            ]
+        }],
+        "attr": {
+            "type": "static"
+        }
+    }]
+}

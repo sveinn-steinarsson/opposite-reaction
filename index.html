@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Opposite Reaction</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" sizes="196x196" type="image/png" href="img/favicon-196x196.png" />
+  <link rel="apple-touch-icon" sizes="196x196" href="img/favicon-196x196.png">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui" />
+
+  <meta property="og:title" content="Opposite Reaction" />
+  <meta property="og:site_name" content="Opposite Reaction" />
+  <meta property="og:description" content="A puzzle game where for every action, there is an equal and opposite reaction" />
+  <meta property="og:image" content="https://sveinn-steinarsson.github.io/opposite-reaction/img/big-logo.png" />
+  <meta property="og:url" content="https://sveinn-steinarsson.github.io/opposite-reaction/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@realSveinn" />
+  <meta name="twitter:title" content="Opposite Reaction" />
+  <meta name="twitter:description" content="A puzzle game where for every action, there is an equal and opposite reaction" />
+  <meta name="twitter:image" content="https://sveinn-steinarsson.github.io/opposite-reaction/img/small-logo.png" />
+</head>
+
+<body>
+
+  <div id="header">
+    <span id="level-title">Level Title</span>
+    <img id="menu" alt="Show About" src="img/menu.svg">
+  </div>
+
+  <svg id="game"></svg>
+
+  <div id="status">moves X</div>
+
+  <div id="footer">
+    <img id="prev-level" alt="Previous Level" class="nav-icon" src="img/left-arrow.svg">
+    <img id="reload-level" alt="Reload Level" class="nav-icon" src="img/refresh.svg">
+    <img id="next-level" alt="Next Level" class="nav-icon" src="img/right-arrow.svg">
+  </div>
+
+  <div id="level-finish-dialog" class="dialog">
+    <h4 id="level-finish-message">
+      Level Finish Message
+    </h4>
+    <p>
+      <img class="level-finish-level-star" alt="First star" src="img/logo.svg">
+      <img class="level-finish-level-star" alt="Second star" src="img/gray-x-logo.svg">
+      <img class="level-finish-level-star" alt="Third star" src="img/gray-x-logo.svg">
+    </p>
+    <p>
+      You finished in <span id="level-finish-move-count">0</span> moves
+    </p>
+    <p id="no-more-levels">
+      This was the last level. Here after are only a few experimental levels.
+      <br />
+      If you liked the game please share it and maybe even
+      <a href="https://github.com/sveinn-steinarsson/opposite-reaction/blob/master/CONTRIBUTING.md">contribute</a> your own levels.
+    </p>
+    <p>
+      <a id="play-again" href="#">Play again</a>
+      <span id="more-levels">
+        or go to the <a id="goto-next-level" href="#">next level</a>
+      </span>
+    </p>
+  </div>
+
+  <div id="about-dialog" class="dialog">
+    <h3>
+      <img id="svg-logo-icon" src="img/logo.svg" alt="Opposite Reaction Logo">
+      Opposite Reaction
+    </h3>
+    <p>
+      Programming, design and game concept by <a href="https://www.linkedin.com/in/sveinn-steinarsson/">Sveinn Steinarsson</a>
+    </p>
+    <p>
+      Opposite Reaction is licensed under the <a href="https://github.com/sveinn-steinarsson/opposite-reaction/blob/master/LICENSE">MIT license</a>
+      and hosted on <a href="https://github.com/sveinn-steinarsson/opposite-reaction">GitHub</a>
+    </p>
+    <h4>
+      Settings
+    </h4>
+    <p>
+      Animation effect: <a id="animation-effect" href="#">instant</a>
+    </p>
+    <p>
+      <a id="how-to-play" href="#">How to play</a>
+    </p>
+  </div>
+
+  <div id="how-to-play-dialog" class="dialog">
+    <h3>
+      How to play
+    </h3>
+    <div id="example-animation-bg">
+      <div id="example-animation"></div>
+    </div>
+    <p>
+      Just connect the blue dots
+	  <br />
+	  <small>Same color pieces are group together and the symbol indicates the relationship</small>
+    </p>
+  </div>  
+
+  <script src="lib/snap.svg/snap.svg-min.js"></script>
+  <script src="dist/levels.js"></script>
+  <script src="dist/shape.js"></script>
+  <script src="dist/game.js"></script>
+  <script src="dist/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+{
+    "author": "Sveinn Steinarsson",
+    "settings": {
+        "title": "Mind the gap",
+        "gridHeight": 8,
+        "gridWidth": 6,
+        "minMoves": 3,
+        "checkpoints": [{"x": 0, "y": 7}, {"x": 5, "y": 7}]
+    },
+    "elements": [{
+        "shapes": [{
+            "pos": {
+                "x": 4,
+                "y": 2
+            },
+            "grid": [
+                [1]
+            ]
+        }, {
+            "pos": {
+                "x": 0,
+                "y": 2
+            },
+            "grid": [
+                [1]
+            ]
+        }],
+        "attr": {
+            "type": "active",
+            "react": {
+                "hor": -1,
+                "ver": -1
+            },
+            "col": "#9C9B7A"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 1,
+                "y": 2
+            },
+            "grid": [
+                [1, 1]
+            ]
+        }, {
+            "pos": {
+                "x": 3,
+                "y": 3
+            },
+            "grid": [
+                [1, 1]
+            ]
+        }],
+        "attr": {
+            "type": "active",
+            "react": {
+                "hor": -1,
+                "ver": -1
+            },
+            "col": "#405952"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 3,
+                "y": 4
+            },
+            "grid": [
+                [1]
+            ]
+        }, {
+            "pos": {
+                "x": 3,
+                "y": 1
+            },
+            "grid": [
+                [1]
+            ]
+        }],
+        "attr": {
+            "type": "active",
+            "react": {
+                "hor": 1,
+                "ver": -1
+            },
+            "col": "#FF974F"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 0,
+                "y": 4
+            },
+            "grid": [
+                [1, 1],
+                [1, 0],
+                [1, 0],
+                [1, 0]
+            ]
+        }],
+        "attr": {
+            "type": "static"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 4,
+                "y": 4
+            },
+            "grid": [
+                [1, 1],
+                [0, 1],
+                [0, 1],
+                [0, 1]
+            ]
+        }],
+        "attr": {
+            "type": "static"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 2,
+                "y": 0
+            },
+            "grid": [
+                [1, 1]
+            ]
+        }],
+        "attr": {
+            "type": "static"
+        }
+    }]
+}

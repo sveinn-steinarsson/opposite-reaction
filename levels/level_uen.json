@@ -1,0 +1,95 @@
+{
+    "author": "Sveinn Steinarsson",
+    "settings": {
+        "title": "Now we are talking",
+        "gridHeight": 8,
+        "gridWidth": 6,
+        "minMoves": 6,
+        "checkpoints": [{"x": 0, "y": 3}, {"x": 5, "y": 4}]
+    },
+    "elements": [{
+        "shapes": [{
+            "pos": {
+                "x": 0,
+                "y": 0
+            },
+            "grid": [
+                [1,1],
+                [0,1]
+            ]
+        }, {
+            "pos": {
+                "x": 4,
+                "y": 6
+            },
+            "grid": [
+                [1,0],
+                [1,1]
+            ]
+        }],
+        "attr": {
+            "type": "active",
+            "react": {
+                "hor": -1,
+                "ver": -1
+            },
+            "col": "#9C9B7A"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 2,
+                "y": 2
+            },
+            "grid": [
+                [1, 1]
+            ]
+        }, {
+            "pos": {
+                "x": 3,
+                "y": 3
+            },
+            "grid": [
+                [1, 1]
+            ]
+        }],
+        "attr": {
+            "type": "active",
+            "react": {
+                "hor": -1,
+                "ver": -1
+            },
+            "col": "#405952"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 0,
+                "y": 1
+            },
+            "grid": [
+                [1], 
+                [1],
+                [1]
+            ]
+        }],
+        "attr": {
+            "type": "static"
+        }
+    }, {
+        "shapes": [{
+            "pos": {
+                "x": 5,
+                "y": 4
+            },
+            "grid": [
+                [1], 
+                [1],
+                [1]
+            ]
+        }],
+        "attr": {
+            "type": "static"
+        }
+    }]
+}
