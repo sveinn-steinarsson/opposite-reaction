@@ -17,5 +17,9 @@ The game is written in JavaScript and started as a project to try out the game c
 ## Contributing
 I encourage you to contribute to the project. There are many things which are needed, especially more levels. Please check out the [contributing guide](https://github.com/sveinn-steinarsson/opposite-reaction/blob/master/CONTRIBUTING.md) for more information.
 
+## Awards
+The game won first price in the RedBull and TU Graz
+[Rapid Game Design Challenge](https://www.redbull.com/in-en/red-bull-mind-gamers-challenge-game-development).
+
 ## License
 Opposite Reaction is released under the terms of [MIT License](https://github.com/sveinn-steinarsson/opposite-reaction/blob/master/LICENSE)
